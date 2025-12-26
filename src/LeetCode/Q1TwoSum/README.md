@@ -9,7 +9,7 @@ https://leetcode.com/problems/two-sum/description/
 The most straightforward approach is to use brute force to find all possible combinations.
 
 ```csharp
-public static class Q1TwoSum
+public static class Solution
 {
     public static int[] TwoSum(int[] nums, int target)
         for (int i = 0; i < nums.Length; i++) {
@@ -38,7 +38,7 @@ While we are iterating, we can check if the current element's complement already
 If it exits, we can return the answer immediately.
 
 ```csharp
-public static class Q1TwoSum
+public static class Solution
 {
     public static int[] TwoSum(int[] nums, int target)
     {

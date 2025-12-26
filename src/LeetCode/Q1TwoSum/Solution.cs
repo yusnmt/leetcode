@@ -1,6 +1,6 @@
-﻿namespace LeetCode;
+﻿namespace LeetCode.Q1TwoSum;
 
-public static class Q1TwoSum
+public static class Solution
 {
     public static int[] TwoSum(int[] nums, int target)
     {

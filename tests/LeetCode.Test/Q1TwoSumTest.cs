@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Test;
+﻿using LeetCode.Q1TwoSum;
+
+namespace LeetCode.Test;
 
 public class Q1TwoSumTest
 {
@@ -7,7 +9,7 @@ public class Q1TwoSumTest
 
     public void TwoSum(int[] nums, int target, int[] expected)
     {
-        var answer = Q1TwoSum.TwoSum(nums, target);
+        var answer = Solution.TwoSum(nums, target);
         Assert.That(answer, Is.EqualTo(expected));
     }
 }
