@@ -137,3 +137,23 @@ public static class Solution
     }
 }
 ```
+
+#### Time Complexity `O(n)`
+
+- Count frequency: `O(n)`
+- Insert unique `m` element into buckets[count]: `0(m) (m <= n)`
+- Traverse buckets:`O(n+1) (bucket size is n + 1`
+
+```scss
+O(n + m + n) = 0(n)
+```
+
+#### Space complexity `O(n)`
+- Frequency Map (Dictionary): `0(n)`
+- Bucket Array: `0(n)`
+    - Array; `0(n)`
+    - Elements in the array: `0(m)`
+
+```scss
+O(n + m) -> 0(n)
+```
