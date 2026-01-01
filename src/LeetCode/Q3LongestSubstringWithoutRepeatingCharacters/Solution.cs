@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace LeetCode.Q3LongestSubstringWithoutRepeatingCharacters;
 
 public static class Solution
