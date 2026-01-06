@@ -1,0 +1,16 @@
+namespace LeetCode.Q191NumberOfOneBits;
+
+public static class Solution
+{
+    public static int HammingWeight(int n)
+    {
+        var count = 0;
+        while (n != 0)
+        {
+            n &= n - 1;
+            count++;
+        }
+        
+        return count;
+    }
+}
