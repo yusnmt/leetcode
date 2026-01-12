@@ -1,4 +1,4 @@
-using LeetCode.Q3LongestSubstringWithoutRepeatingCharacters;
+using LeetCode.Q0003.LongestSubstringWithoutRepeatingCharacters;
 
 namespace LeetCode.Test;
 

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCode.Q1TwoSum;
+namespace LeetCode.Q0001.TwoSum;
 
 public static class Solution
 {

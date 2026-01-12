@@ -1,7 +1,7 @@
 using System;
 using LeetCode.Models;
 
-namespace LeetCode.Q143ReorderList;
+namespace LeetCode.Q0143.ReorderList;
 
 public class Solution
 {

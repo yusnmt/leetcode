@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LeetCode.Q242ValidAnagram;
+namespace LeetCode.Q0242.ValidAnagram;
 
 public static class Solution
 {

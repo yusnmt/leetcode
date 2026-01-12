@@ -1,4 +1,4 @@
-namespace LeetCode.Q371SumOfTwoIntegers;
+namespace LeetCode.Q0371.SumOfTwoIntegers;
 
 public static class Solution
 {

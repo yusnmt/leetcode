@@ -1,4 +1,4 @@
-using LeetCode.Q242ValidAnagram;
+using LeetCode.Q0242.ValidAnagram;
 
 namespace LeetCode.Test;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.Q1TwoSum;
+﻿using LeetCode.Q0001.TwoSum;
 
 namespace LeetCode.Test;
 

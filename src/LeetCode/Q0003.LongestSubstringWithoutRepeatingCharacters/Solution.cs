@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LeetCode.Q3LongestSubstringWithoutRepeatingCharacters;
+namespace LeetCode.Q0003.LongestSubstringWithoutRepeatingCharacters;
 
 public static class Solution
 {

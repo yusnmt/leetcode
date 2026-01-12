@@ -1,4 +1,4 @@
-using LeetCode.Q136SingleNumber;
+using LeetCode.Q0136.SingleNumber;
 
 namespace LeetCode.Test;
 

@@ -1,4 +1,4 @@
-using LeetCode.Q347TopKFrequentElements;
+using LeetCode.Q0347.TopKFrequentElements;
 
 namespace LeetCode.Test;
 

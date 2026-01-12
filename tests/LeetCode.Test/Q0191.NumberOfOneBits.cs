@@ -1,4 +1,4 @@
-using LeetCode.Q191NumberOfOneBits;
+using LeetCode.Q0191.NumberOfOneBits;
 
 namespace LeetCode.Test;
 

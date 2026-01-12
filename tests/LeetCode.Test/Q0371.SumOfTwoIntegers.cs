@@ -1,4 +1,4 @@
-using LeetCode.Q371SumOfTwoIntegers;
+using LeetCode.Q0371.SumOfTwoIntegers;
 
 namespace LeetCode.Test;
 

@@ -1,6 +1,6 @@
 
 
-using LeetCode.Q190ReverseBits;
+using LeetCode.Q0190.ReverseBits;
 
 namespace LeetCode.Test;
 

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace LeetCode.Q67AddBinary;
+namespace LeetCode.Q0067.AddBinary;
 
 public static class Solution
 {

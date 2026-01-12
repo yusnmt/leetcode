@@ -1,4 +1,4 @@
-namespace LeetCode.Q191NumberOfOneBits;
+namespace LeetCode.Q0191.NumberOfOneBits;
 
 public static class Solution
 {

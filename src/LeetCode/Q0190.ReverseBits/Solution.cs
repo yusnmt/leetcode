@@ -1,4 +1,4 @@
-namespace LeetCode.Q190ReverseBits;
+namespace LeetCode.Q0190.ReverseBits;
 
 public static class Solution
 {

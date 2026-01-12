@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LeetCode.Q347TopKFrequentElements;
+namespace LeetCode.Q0347.TopKFrequentElements;
 
 public static class Solution
 {

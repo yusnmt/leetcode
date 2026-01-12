@@ -1,4 +1,4 @@
-namespace LeetCode.Q136SingleNumber;
+namespace LeetCode.Q0136.SingleNumber;
 
 public static class Solution
 {

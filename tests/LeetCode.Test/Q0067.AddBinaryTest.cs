@@ -1,4 +1,4 @@
-using LeetCode.Q67AddBinary;
+using LeetCode.Q0067.AddBinary;
 
 namespace LeetCode.Test;
 
