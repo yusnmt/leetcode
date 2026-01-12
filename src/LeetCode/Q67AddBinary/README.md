@@ -1,4 +1,4 @@
-# LeetCode 67. Addbinary
+# LeetCode 67. AddBinary
 
 ## Problem
 https://leetcode.com/problems/add-binary/

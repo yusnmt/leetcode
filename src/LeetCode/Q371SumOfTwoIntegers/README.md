@@ -1,4 +1,4 @@
-# LeetCode 1. SumOfTwoIntegers
+# LeetCode 371. SumOfTwoIntegers
 
 ## Problem
 https://leetcode.com/problems/sum-of-two-integers/
