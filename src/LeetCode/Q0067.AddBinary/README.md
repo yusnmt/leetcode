@@ -47,7 +47,7 @@ public static string AddBinary(string a, string b)
 
 ## Bit Manipulation
 This is a same approach as Q371 SumOfTwoIntegers.
-We can follow the approach on the [README.md](../../../src/LeetCode/Q371SumOfTwoIntegers/README.md)
+We can follow the approach on the [README.md](../../../src/LeetCode/Q0371.SumOfTwoIntegers/README.md)
 
 ```csharp
 public static string AddBinary_BitManipulation(string a, string b)
