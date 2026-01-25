@@ -35,4 +35,31 @@ public static class TreeNodeUtils
 
         return root;
     }
+    
+    public static int?[] ToLevelOrderArray(TreeNode? root)
+    {
+        if (root == null) return Array.Empty<int?>();
+
+        var result = new List<int?>();
+        var q = new Queue<TreeNode?>();
+        q.Enqueue(root);
+
+        while (q.Count > 0)
+        {
+            var node = q.Dequeue();
+            if (node == null)
+            {
+                result.Add(null);
+                continue;
+            }
+
+            result.Add(node.Val);
+            q.Enqueue(node.Left);
+            q.Enqueue(node.Right);
+        }
+        
+        var last = result.Count - 1;
+        while (last >= 0 && result[last] == null) last--;
+        return result.Take(last + 1).ToArray();
+    }
 }
