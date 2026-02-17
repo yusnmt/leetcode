@@ -62,4 +62,15 @@ public static class TreeNodeUtils
         while (last >= 0 && result[last] == null) last--;
         return result.Take(last + 1).ToArray();
     }
+    
+    public static TreeNode? FindNode(TreeNode? root, int value)
+    {
+        if (root == null) return null;
+
+        if (root.Val == value)
+            return root;
+
+        return FindNode(root.Left, value) ??
+               FindNode(root.Right, value);
+    }
 }
